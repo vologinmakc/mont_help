@@ -1,5 +1,10 @@
 /* CSS Document */
 /*css reset*/
+ @font-face {
+  font-family: Philosopher;
+  src: url(../font/Philosopher/Philosopher-Bold.ttf);
+ }
+
 *{
 	margin: 0;
 	padding: 0;
@@ -13,6 +18,11 @@ body{
 }
 .main{
 	width: 100%;
+}
+/*Класс шрифтов по умолчанию*/
+.default-font{
+	font-family: 'Philosopher', sans-serif;
+	font-weight: bold;
 }
 .info{
 	position: relative;
@@ -42,14 +52,13 @@ body{
 .info-menu__text-shpd{
 	display: block;
 	position: absolute;
-	right: 20px;
-	top: 10px;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	right: 30px;
+	top: 20px;
 	font-size: 72px;
 	color: #fefefe;
 	text-decoration: none;
 }
-.info-menu__strelka-mts-shpd{
+/*.info-menu__strelka-mts-shpd{
 	position: absolute;
 	left: 193px;
 	height: 110px;
@@ -62,7 +71,7 @@ body{
 	height: 110px;
 	width: 74px;
 	background: url(../pic/strelka_mts.jpg);
-}
+}*/
 .info-menu__empty-block{
 	height: 30px;
 }
@@ -77,9 +86,9 @@ body{
 .info-menu__text-ktv{
 	display: block;
 	position: absolute;
-	top: 10px;
-	right: 20px;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	top: 20px;
+	right: 30px;
+	font-weight: bold;
 	font-size: 72px;
 	color: #fefefe;
 	text-decoration: none;
@@ -106,7 +115,6 @@ body{
 	display: block;
 	position: absolute;
 	left: 380px;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	font-size: 60px;
 	color: #fefefe;
 	text-decoration: none;
@@ -134,7 +142,6 @@ body{
 	display: block;
 	position: absolute;
 	left: 400px;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	font-size: 60px;
 	color: #fefefe;
 	text-decoration: none;
