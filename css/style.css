@@ -24,11 +24,22 @@ body{
 	font-family: 'Philosopher', sans-serif;
 	font-weight: bold;
 }
+/*****************Общие классы**********************/
+
+.border-radius-left{
+	border-radius: 15px 0 0 15px;
+}
+.border-radius-right{
+	border-radius: 0 15px 15px 0;
+}
 .info{
 	position: relative;
 	width: 720px;
 	margin-left: auto;
 }
+
+/***********************************************************/
+
 .logo-mts{
 	height: 280px;
 	background: url(../pic/logo_mts.jpg) no-repeat;
@@ -154,4 +165,43 @@ body{
 	height: 69px;
 	width: 40px;
 }
+/**********************************shpd.php pages*********************************************/
+
+.main-shpd{
+	min-width: 100%;
+	background: url(../pic/konnector.png) 100px 0 no-repeat;
+	background-size: 50%;
+}
+.info-menu__link-item{
+	position: relative;
+	margin-left: auto;
+	width: 455px;
+	height: 110px;
+	background: #ed5152;
+}
+.info-menu__link-text{
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	font-weight: bold;
+	font-size: 72px;
+	color: #fefefe;
+	text-decoration: none;
+}
+.info-menu__link-item_big{
+	position: relative;
+	margin-left: auto;
+	width: 600px;
+	height: 110px;
+	background: #ed5152;
+}
+/***********************************ktv.php*******************************************************/
+
+.main-ktv{
+	min-width: 100%;
+	background: url(../pic/old_tvset.png) 0 0 no-repeat;
+	background-size: 50%;
+}
+
 
