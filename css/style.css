@@ -1,0 +1,150 @@
+/* CSS Document */
+/*css reset*/
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	border: 0;
+	outline: 0;
+}
+body{
+	background: #ededed;
+	min-height: 100%;
+}
+.main{
+	width: 100%;
+}
+.info{
+	position: relative;
+	width: 720px;
+	margin-left: auto;
+}
+.logo-mts{
+	height: 280px;
+	background: url(../pic/logo_mts.jpg) no-repeat;
+	background-size: auto;
+	background-position: 500px 130px;
+}
+.info-menu{
+	height: 250px;
+}
+.info-menu__link-schpd{
+	position: relative;
+	margin-left: auto;
+	width: 455px;
+	height: 110px;
+	background: #ed5152;
+	
+}
+.info-menu__link-schpd_shadow{
+	box-shadow: 0 10px 30px 2px rgba(0,0,0,0.5);
+}
+.info-menu__text-shpd{
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 72px;
+	color: #fefefe;
+	text-decoration: none;
+}
+.info-menu__strelka-mts-shpd{
+	position: absolute;
+	left: 193px;
+	height: 110px;
+	width: 74px;
+	background: url(../pic/strelka_mts.jpg);
+}
+.info-menu__strelka-mts-ktv{
+	position: absolute;
+	left: 70px;
+	height: 110px;
+	width: 74px;
+	background: url(../pic/strelka_mts.jpg);
+}
+.info-menu__empty-block{
+	height: 30px;
+}
+.info-menu__link-ktv{
+	position: relative;
+	margin-left: auto; 
+	font-size: 72px;
+	width: 580px;
+	height: 110px;
+	background: #ed5152;
+}
+.info-menu__text-ktv{
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 72px;
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.cherdak-info{
+	position: relative;
+	width: 720px;
+	margin-right: auto;
+}
+.logo-cherdak{
+	height: 250px;
+	background: url(../pic/logo_cherdak.jpg) no-repeat;
+	background-position: 20px 130px;
+}
+.cherdak-menu__link-center{
+	position: relative;
+	margin-left: 20px;
+	background: #5a5a5a;
+	height: 69px;
+	width: 560px;
+}
+.cherdak-menu__text-center{
+	display: block;
+	position: absolute;
+	left: 380px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 60px;
+	color: #fefefe;
+	text-decoration: none;
+}
+.cherdak-menu{
+	position: relative;
+}
+.cherdak-menu__strelka-cherdak-center{
+	position: absolute;
+	right: 102px;
+	top: 0px;
+	background: url(../pic/strelka_cherdak.jpg) no-repeat;
+	height: 69px;
+	width: 40px;
+}
+.cherdak-menu__link-zapsib{
+	position: relative;
+	margin-left: 20px;
+	background: #5a5a5a;
+	height: 69px;
+	width: 620px;
+	
+}
+.cherdak-menu__text-zapsib{
+	display: block;
+	position: absolute;
+	left: 400px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 60px;
+	color: #fefefe;
+	text-decoration: none;
+}
+.cherdak-menu__strelka-cherdak-zapsib{
+	position: absolute;
+	right: 49px;
+	top: 99px;
+	background: url(../pic/strelka_cherdak.jpg) no-repeat;
+	height: 69px;
+	width: 40px;
+}
+
