@@ -11,7 +11,7 @@
 			<div class="logo-mts"></div>
 			<div class="info-menu">
 				<div class="info-menu__link-item info-menu__link-schpd_shadow  border-radius-left">
-					<div class="info-menu__link-text default-font">Частоты</div>
+					<a href="shastoty.php" class="info-menu__link-text default-font">Частоты</a>
 				</div>
 				<div class="info-menu__empty-block"></div>
 				<div class="info-menu__link-item info-menu__link-schpd_shadow default-font border-radius-left">
