@@ -1,0 +1,45 @@
+//создание репозитория
+git init
+
+Создание коммита
+
+git add --all
+git commit
+
+Просмотр истории
+git log
+
+Создание ветки
+git branch bugFix
+git checkout bugFix
+
+Слияние веток
+git checkout master
+git merge bugFix
+
+Ррребейз
+git checkout bugFix
+git rebase master
+
+удаление ветки
+git branch -d bugFix
+
+Работа в директории
+git status 
+git add filename (--all -a "*.js")
+git rm - удалить
+git mv -перемещение
+
+git reset filename - не коммитит файл
+.gitignore
+
+Удаленный репозиторий
+git remote add origin hhts://github.....
+git push origin master - выложить
+
+git congig --global user.name ""
+git congig --global user.email ""
+
+git pull origin master
+
+git log --oneline --graph --decorate
