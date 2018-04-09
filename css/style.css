@@ -13,7 +13,7 @@
 	outline: 0;
 }
 body{
-	background: #ededed;
+	background: #fff;
 	min-height: 100%;
 }
 .main{
@@ -47,7 +47,7 @@ body{
 	background-position: 500px 130px;
 }
 .info-menu{
-	height: 250px;
+	height: 400px;
 }
 .info-menu__link-schpd{
 	position: relative;
@@ -86,6 +86,16 @@ body{
 .info-menu__empty-block{
 	height: 30px;
 }
+.info-menu__empty-block_liniya{
+	height: 140px;
+	background: url(../pic/liniya.jpg) no-repeat;
+	background-position: -100px 0px;
+}
+.info-menu__empty-block_liniya-right{
+	height: 140px;
+	background: url(../pic/liniya.jpg) no-repeat;
+	background-position: 150px 0px;
+}
 .info-menu__link-ktv{
 	position: relative;
 	margin-left: auto; 
@@ -106,8 +116,7 @@ body{
 }
 
 .cherdak-info{
-	position: relative;
-	width: 720px;
+	width: 100%;
 	margin-right: auto;
 }
 .logo-cherdak{
@@ -115,14 +124,22 @@ body{
 	background: url(../pic/logo_cherdak.jpg) no-repeat;
 	background-position: 20px 130px;
 }
-.cherdak-menu__link-center{
+.cherdak-menu__link-menu{
 	position: relative;
 	margin-left: 20px;
 	background: #5a5a5a;
-	height: 69px;
+	height: 80px;
 	width: 560px;
 }
-.cherdak-menu__text-center{
+.cherdak-menu__link-menu_width{
+	position: relative;
+	margin-left: 20px;
+	background: #5a5a5a;
+	height: 80px;
+	width: 610px;
+}
+
+.cherdak-menu__text-menu{
 	display: block;
 	position: absolute;
 	left: 380px;
@@ -133,38 +150,33 @@ body{
 .cherdak-menu{
 	position: relative;
 }
-.cherdak-menu__strelka-cherdak-center{
+/*.cherdak-menu__strelka-cherdak-center{
 	position: absolute;
 	right: 102px;
 	top: 0px;
 	background: url(../pic/strelka_cherdak.jpg) no-repeat;
 	height: 69px;
 	width: 40px;
-}
-.cherdak-menu__link-zapsib{
-	position: relative;
-	margin-left: 20px;
-	background: #5a5a5a;
-	height: 69px;
-	width: 620px;
-	
-}
-.cherdak-menu__text-zapsib{
-	display: block;
-	position: absolute;
-	left: 400px;
-	font-size: 60px;
-	color: #fefefe;
-	text-decoration: none;
-}
-.cherdak-menu__strelka-cherdak-zapsib{
+}*/
+
+/*.cherdak-menu__strelka-cherdak-zapsib{
 	position: absolute;
 	right: 49px;
 	top: 99px;
 	background: url(../pic/strelka_cherdak.jpg) no-repeat;
 	height: 69px;
 	width: 40px;
+}*/
+
+.rh-logo{
+	width: 100%;
+	height: 200px;
+	background: no-repeat;
+	background-image: url(../pic/RH_logo/rh-logo_mini.jpg);
+	background-position: 0px;
 }
+
+
 /**********************************shpd.php pages*********************************************/
 
 .main-shpd{
