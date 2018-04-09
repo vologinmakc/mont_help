@@ -28,9 +28,7 @@
 				<div class="info-menu__empty-block_liniya-right"></div>
 			</div>
 		</div>
-		
-		
-		
+		<!-- --------------------------------------------------------------------------------------------->
 		<div class="cherdak-info">
 			<div class="logo-cherdak"></div>
 			<div class="cherdak-menu">
@@ -44,10 +42,11 @@
 			</div>
 		</div>
 		<div class="info-menu__empty-block"></div>
-		
-		<div class="rh-block rh-block_shadows">
-			<div class="rh-logo"></div>
-			<div class="rh-block__empty-block"></div>
+		<!-- ---------------------------------------RedHub blocks------------------------------------------------------>
+		<div class="rh-block">
+			<div class="rh-block__lozyng"><div class="rh-block__lozung-text default-font">Что то не понятное с телевизором интернетом Напиши!</div></div>
+			<div class="rh-logo rh-block_shadows"></div>
+			<!--<div class="rh-block__empty-block"></div>-->
 		</div>
 	</div>
 </body>
