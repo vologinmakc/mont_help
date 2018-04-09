@@ -42,9 +42,9 @@ body{
 
 .logo-mts{
 	height: 280px;
-	background: url(../pic/logo_mts.jpg) no-repeat;
-	background-size: auto;
-	background-position: 500px 130px;
+	background: url(../pic/logo_mts.png) no-repeat;
+	background-size: 50%;
+	background-position: 0px 50px;
 }
 .info-menu{
 	height: 400px;
@@ -87,7 +87,7 @@ body{
 	height: 30px;
 }
 .info-menu__empty-block_liniya{
-	height: 140px;
+	height: 105px;
 	background: url(../pic/liniya.jpg) no-repeat;
 	background-position: -100px 0px;
 }
@@ -96,6 +96,7 @@ body{
 	background: url(../pic/liniya.jpg) no-repeat;
 	background-position: 150px 0px;
 }
+
 .info-menu__link-ktv{
 	position: relative;
 	margin-left: auto; 
@@ -168,14 +169,32 @@ body{
 	width: 40px;
 }*/
 
-.rh-logo{
-	width: 100%;
-	height: 200px;
-	background: no-repeat;
-	background-image: url(../pic/RH_logo/rh-logo_mini.jpg);
-	background-position: 0px;
+.rh-block{
+	width: 95%;
+	margin: 0 auto;
+	height: 400px;
+	position: relative;
+	border-top: 7px;
+	border-top-style: solid;
+	border-top-color: #5a5a5a;
+	border-radius: 15px;
 }
 
+.rh-logo{
+	height: 200px;
+	margin-right: auto;
+	background:  no-repeat;
+	background-image: url(../pic/RH_logo/rh-logo_mini.jpg);
+	background-position: 0px;
+	/*border-radius: 15px;*/
+}
+.rh-block__empty-block{
+	height: 20px;
+	background: #5a5a5a;
+}
+.rh-block_shadows{
+	box-shadow: 0 10px 30px 4px rgba(237,81,82,0.8);
+}
 
 /**********************************shpd.php pages*********************************************/
 

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Справочник монтажника</title>
-<link rel="stylesheet" href="css/style.css?ver=1.4.3">
+<link rel="stylesheet" href="css/style.css?ver=1.4.5">
 </head>
 <body>
 	<div class="main">
@@ -41,14 +41,14 @@
 				<div class="cherdak-menu__link-menu_width info-menu__link-schpd_shadow border-radius-right">
 					<a href="http://zapsib.hol.es/" class="cherdak-menu__text-menu default-font">Запсиб</a>
 				</div>
-				
-				<div class="info-menu__empty-block"></div>
-				
 			</div>
 		</div>
-		<div class="info-menu__empty-block_liniya"></div>
+		<div class="info-menu__empty-block"></div>
 		
-		<div class="rh-logo"></div>
+		<div class="rh-block rh-block_shadows">
+			<div class="rh-logo"></div>
+			<div class="rh-block__empty-block"></div>
+		</div>
 	</div>
 </body>
 </html>
